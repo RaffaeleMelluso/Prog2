@@ -8,7 +8,6 @@ public class TestNodeUtil {
         Node<Integer> in2 = new Node<>(2,in1);
         Node<Integer> in3 = new Node<>(1,in2);
         Node<Integer> in4 = new Node<>(4,in3);
-        
         Node<Integer> im1 = new Node<>(3,null);
         Node<Integer> im2 = new Node<>(1,im1);
         Node<Integer> im3 = new Node<>(3,im2);
