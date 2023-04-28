@@ -1,3 +1,4 @@
+package ProvaTastiera;
 abstract class Classe{
     private String nome;
     private int numero;
@@ -17,6 +18,7 @@ abstract class Classe{
     public void Classe(int numero){
         this.numero=numero;
     }
+    
 
 }
 class Persona extend Classe{
@@ -38,10 +40,5 @@ class Persona extend Classe{
         return "Nome: "+this.nome+"\n"+"Numero: "+this.numero+"\n"
             +"Vivo? "+this.vivo;
     }
-    static void main(String [] args)
-    {
-        Persona p1 = new Persona(true);
-        System.out.println(p1.toString);
-
-    }
+    
 }
